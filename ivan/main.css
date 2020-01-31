@@ -1,0 +1,165 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family:  'Museo Sans Cyrl 300';
+	font-size: 15px;
+}
+
+#first {
+	background-image: url(img/first.jpg);
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	text-align: center;
+	padding-top: 50px;
+	color: #fff;
+	position: relative;
+
+}
+
+article {
+	width: 84vw;
+	margin: 0 auto;
+}
+
+.logotype {
+	width: 200px;
+}
+
+h1 {
+	margin-top: 185px;
+	font-size: 42px;
+}
+
+.yellow {
+	color: #d6fed8;
+}
+
+.ivan {
+	margin-top: 40px;
+	padding: 8px 23px;
+	background-color: #d6fed8;
+	display: inline-block;
+	color: #525252;
+	border-radius: 50px;
+	font-size: 10px;
+	text-transform: uppercase;
+	font-style: italic;
+}
+
+.play1 {
+	width: 190px;
+	height: auto;
+	position: absolute;
+	top: 18%;
+	left: 5%;
+}
+
+.play2 {
+	width: 145px;
+	height: auto;
+	position: absolute;
+	right: 5%;
+	bottom: 14%;
+}
+
+.money-1, .money-2 {
+	width: 170px;
+	position: absolute;
+}
+
+.money-1 {
+	top: 68%;
+	left: 6%;
+}
+
+.money-2 {
+	top: 15%;
+	right: 6%;
+}
+
+.arrow {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	width: 85%;
+	margin: 0 auto;
+	-ms-align-items: bottom;
+	align-items: flex-end;
+	height: 300px;
+	text-align: left;
+}
+
+.arrow > a > p {
+	color: #fff;
+}
+
+.arrow > a > img {
+	height: 18px;
+}
+
+.arrow > a {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	opacity: 0.8;
+}
+
+.arrow > a:hover {
+	opacity: 1;
+	transition: .3s;
+}
+
+a {
+	text-decoration: none;
+}
+
+.active_life {
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.action_form {
+	background-color: rgb(255, 255, 255);
+  	box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.05);
+  	padding: 24px 25px;
+  	border-radius: 5px;
+  	width: 450px;
+
+}
+
+.action_form > textarea , input {
+	display: block;
+	width: 95%;
+	border: 1px solid rgba(0, 0, 0, 0.08);
+	font-size: 14px;
+	outline: none;
+}
+
+input {
+	height: 45px;
+}
+
+.check {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.check_text {
+	font-size: 12px;
+}
